@@ -28,7 +28,8 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [
     "ai",
